@@ -1,0 +1,46 @@
+WHAT IS A DNS REQUEST
+A DNS request, also known as a DNS query, is a message sent from a computer to a DNS server to request information about a domain name. The DNS server then responds with the IP address associated with the domain name.
+
+For example, when you type www.google.com into your web browser, your computer sends a DNS request to a DNS server to ask for the IP address of the Google website. The DNS server then responds with the IP address, which is 172.217.0.142. Your computer then uses this IP address to connect to the Google website.
+
+The DNS request process is essential for the functioning of the Internet. Without DNS requests, users would have to remember the IP addresses of websites they want to visit, which is impractical. DNS requests allow users to easily access websites using their domain names, making the Internet more user-friendly.
+
+Here are some additional details about DNS requests:
+
+DNS requests are typically made over UDP port 53.
+DNS requests are typically very small, typically only a few bytes in size.
+DNS requests are made using a variety of different query types, including A records, MX records, and CNAME records.
+DNS requests can be cached by DNS servers to improve performance.
+
+WHAT IS TCP/IP
+TCP/IP stands for Transmission Control Protocol/Internet Protocol. It is a set of communication protocols that govern the way data is exchanged over the Internet. TCP/IP is the foundation of the Internet, and it is used by all devices that connect to the Internet, including computers, smartphones, and routers.
+TCP/IP is a two-layer protocol stack. The top layer is the Transmission Control Protocol (TCP), which provides reliable, connection-oriented communication. The bottom layer is the Internet Protocol (IP), which provides a way to route data packets across the Internet.
+TCP/IP works by breaking data into small packets, called datagrams. Each datagram is given a unique address, and the packets are routed through the Internet until they reach their destination. When the packets arrive at their destination, they are reassembled into the original data.
+TCP/IP is a reliable protocol, which means that it guarantees that data will be delivered to its destination. If a packet is lost, TCP will retransmit the packet until it is received.
+TCP/IP is also a scalable protocol, which means that it can be used to support a large number of devices. The Internet is a global network, and TCP/IP is able to handle the traffic of millions of devices.
+TCP/IP is a complex protocol, but it is essential for the functioning of the Internet. Without TCP/IP, the Internet would not be able to function.
+WHATS IS A FIREWALL
+A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. A firewall typically establishes a barrier between a trusted network and an untrusted network, such as the Internet.
+Firewalls are used to protect networks from a variety of threats, including:
+Malicious traffic: Firewalls can block malicious traffic, such as viruses, worms, and Trojan horses.
+Unauthorized access: Firewalls can prevent unauthorized users from accessing a network.
+Data theft: Firewalls can help to protect sensitive data from being stolen.
+There are two main types of firewalls:
+Network-based firewalls: Network-based firewalls are placed at the perimeter of a network, and they monitor all traffic entering and leaving the network.
+Host-based firewalls: Host-based firewalls are installed on individual computers, and they monitor traffic to and from those computers.
+Firewalls are an essential part of network security, and they can help to protect networks from a variety of threats.
+Here are some of the benefits of using a firewall:
+Increased security: Firewalls can help to protect networks from a variety of threats, including malicious traffic, unauthorized access, and data theft.
+Improved performance: Firewalls can help to improve network performance by filtering out unnecessary traffic.
+Simplified management: Firewalls can help to simplify network management by centralizing security policies.
+WHAT IS HTTPS/SSL
+HTTPS stands for Hypertext Transfer Protocol Secure. It is an extension of the Hypertext Transfer Protocol (HTTP) that is used for secure communication over a computer network. HTTPS uses encryption for secure communication between web browsers and servers. It is widely used on the internet to protect sensitive data such as passwords, credit card numbers, and other personal information from being intercepted by hackers. SSL (Secure Sockets Layer) is a protocol that enables secure communications online and is used in combination with HTTPS to provide encrypted communications and a secure ID of a web server. N/B TLS (Transport Layer Security) is an improved version of SSL.
+WHAT IS A LOAD-BALANCER
+A load balancer is a device or software that helps to move packets efficiently across multiple servers. It acts as the “traffic cop” sitting in front of your servers and routing client requests across all servers capable of fulfilling those requests. The load balancer will balance the traffic equally between all available servers, so users will experience the same, consistently fast performance. Load balancers are used to increase capacity (concurrent users) and reliability of applications.
+WHATS IS A WEB SERVER
+A web server is a system that stores, processes, and delivers website files to a web browser. It consists of a physical server, server operating system, and software that uses HTTP or HTTPS to communicate with browsers. A web server can deliver content or services to end users over the internet.
+WHATS IS AN APPLICATION SERVER
+An application server is a software framework that provides both facilities to create web applications and a server environment to run them. It is designed to handle the load of many concurrent users and provide consistent performance. Application servers are used to host web applications that require high availability, scalability, and reliability. Some popular application servers include Apache Tomcat, Nginx, JBoss, IBM WebSphere, Oracle WebLogic Server, and Microsoft IIS .
+WHAT IS A DATABASE
+A database is an organized collection of data that can be accessed, managed, and updated. It is used to store and retrieve data for various applications. Databases are used in many applications, including websites, mobile apps, and desktop software. There are many types of databases, including relational databases, NoSQL databases, and graph databases. Some popular databases include MySQL, PostgreSQL, MongoDB, Cassandra, and Oracle Database.
+
