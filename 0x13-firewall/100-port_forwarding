@@ -1,4 +1,8 @@
-##!/usr/bin/env bash
+<<<<<<< HEAD
+#!/usr/bin/env bash
+=======
+#
+>>>>>>> 895a88a3262bb59837b865c50b3d3eeb0fd25b7d
 # rules.before
 #
 # Rules that should be run before the ufw command line added rules. Custom
